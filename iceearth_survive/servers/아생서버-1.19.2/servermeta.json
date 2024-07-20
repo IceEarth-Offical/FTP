@@ -3,7 +3,7 @@
   "meta": {
     "version": "1.0.0",
     "name": "아생서버",
-    "description": "스트리머 아스의 대규모 야생 컨텐츠!",
+    "description": "스트리머 아스의 대규모 야생 컨텐츠",
     "icon": "https://nng-phinf.pstatic.net/MjAyMzEyMDZfODgg/MDAxNzAxODY5NjEzNDQz.KDIXBnvFX0wsri7wopsROI4bzl5_wUh8kGlJTom-P3sg.G7pCaXGhIlTaGL6hflNF7ULrCnGlF8G627rmzy4He18g.PNG/%EB%B9%BB%EC%95%84%EC%8A%A4.png?type=f120_120_na",
     "address": "icecompany.alcl.kr",
     "discord": {
@@ -15,7 +15,7 @@
     "autoconnect": true
   },
   "fabric": {
-    "version": "0.15.11"
+    "version": "0.14.19"
   },
   "untrackedFiles": []
 }
