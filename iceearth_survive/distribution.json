@@ -263,6 +263,19 @@
           }
         },
         {
+          "id": "jp.axer.cocoainput.loader:cocoainput:4.1.2-EXPERIMENTAL@jar",
+          "name": "CocoaInput",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 209179,
+            "url": "https://iceearth-offical.github.io/FTP/iceearth_survive/servers/%EC%95%84%EC%83%9D%EC%84%9C%EB%B2%84-1.19.2/fabricmods/optionalon/CocoaInput-1.19.2-fabric-4.1.2-EXPERIMENTAL.jar",
+            "MD5": "0b06ba7f6462bf42476c7f6a3c9f6551"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
           "id": "io.github.kvverti:colormatic:3.1.2+mc.1.19@jar",
           "name": "Colormatic",
           "type": "FabricMod",
@@ -764,6 +777,19 @@
             "size": 127465,
             "url": "https://iceearth-offical.github.io/FTP/iceearth_survive/servers/%EC%95%84%EC%83%9D%EC%84%9C%EB%B2%84-1.19.2/fabricmods/optionalon/starlight-1.1.1+fabric.ae22326.jar",
             "MD5": "98bca210d5ddaee18a6375ad27f505f8"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "de.maxhenkel:voicechat:1.19.2-2.5.19@jar",
+          "name": "Simple Voice Chat",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 8016218,
+            "url": "https://iceearth-offical.github.io/FTP/iceearth_survive/servers/%EC%95%84%EC%83%9D%EC%84%9C%EB%B2%84-1.19.2/fabricmods/optionalon/voicechat-fabric-1.19.2-2.5.19.jar",
+            "MD5": "f1cb3b7d67ae85baa95f93e0d04c0d98"
           },
           "required": {
             "value": false
