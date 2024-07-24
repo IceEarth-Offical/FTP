@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "rss": "https://iceearth-offical.github.io/FTP/RSS/rss.xml",
+  "rss": "https://iceearth-offical.github.io/FTP/RSS/",
   "discord": {
     "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
     "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
