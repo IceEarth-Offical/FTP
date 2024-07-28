@@ -2,9 +2,9 @@
   "version": "1.0.0",
   "rss": "https://iceearth-offical.github.io/FTP/RSS/",
   "discord": {
-    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+    "clientId": "1267007484049100852",
+    "smallImageText": "아생서버 런처",
+    "smallImageKey": "seal-circle"
   },
   "servers": [
     {
