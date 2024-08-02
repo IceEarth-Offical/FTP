@@ -224,19 +224,6 @@
           }
         },
         {
-          "id": "net.dorianpb:cem:0.7.3-1.19@jar",
-          "name": "Custom Entity Models",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 1075404,
-            "url": "https://iceearth-offical.github.io/FTP/iceearth_survive/servers/%EC%95%84%EC%83%9D%EC%84%9C%EB%B2%84-1.19.2/fabricmods/optionalon/cem-0.7.3-1.19.jar",
-            "MD5": "4d48c308b84859fa893f5071f0ea588d"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
           "id": "shcm.shsupercm:citresewn:1.1.2+1.19.2@jar",
           "name": "CIT Resewn",
           "type": "FabricMod",
