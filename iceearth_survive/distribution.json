@@ -354,6 +354,19 @@
           }
         },
         {
+          "id": "traben.entity_model_features:entity_model_features:2.0.2@jar",
+          "name": "Entity Model Features",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 379784,
+            "url": "https://iceearth-offical.github.io/FTP/iceearth_survive/servers/%EC%95%84%EC%83%9D%EC%84%9C%EB%B2%84-1.19.2/fabricmods/optionalon/entity_model_features_fabric_1.19.2-2.0.2.jar",
+            "MD5": "9a54ffb1d6dafefe3f8d4f26b1c5e4c7"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
           "id": "traben.entity_texture_features:entity_texture_features:4.3.3@jar",
           "name": "Entity Texture Features",
           "type": "FabricMod",
