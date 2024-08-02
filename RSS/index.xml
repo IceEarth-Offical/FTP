@@ -1,21 +1,31 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" version="2.0">
   <channel>
     <title>아생서버 뉴스</title>
-    <link>https://chzzk.naver.com/live/cb426cc33cebf9231d515df1e2ef482b</link>
-    <description>Your channel description</description>
-    <language>en-us</language>
+    <link>https://github.com/IceEarth-Offical/IceearthLauncher/</link>
     <item>
-      <title>8월달 서버 오픈 예정!</title>
-      <link>https://chzzk.naver.com/live/cb426cc33cebf9231d515df1e2ef482b</link>
-      <description>8월 초에 서버가 오픈됩니다!</description>
-      <pubDate>Wed, 24 Jul 2024 16:00:00 GMT</pubDate>
+      <title>아생 서버에 오신것을 환영하비니다</title>
+      <content:encoded>
+        <![CDATA[<p>8월 아생서버 오픈!</p>
+          <p>정말 신나죠?</p>
+        ]]>
+      </content:encoded>
+      <dc:creator>Sejinjin</dc:creator>
+      <pubDate>28 July 2024 15:00:00</pubDate>
+      <slash:comments>2024</slash:comments>
     </item>
     <item>
-      <title>내용 준비중...</title>
-      <link>https://chzzk.naver.com/live/cb426cc33cebf9231d515df1e2ef482b</link>
-      <description>준비중...</description>
-      <pubDate>비밀 ^^</pubDate>
+      <title>Yes, news module supports multiple articles!</title>
+      <content:encoded>
+        <![CDATA[<p>공사중</p>
+    <ul>
+    <li>준비중...</li>
+    </ul>
+    ]]>
+      </content:encoded>
+      <dc:creator>Sejinjin</dc:creator>
+      <pubDate>28 July 2024 15:00:00</pubDate>
     </item>
   </channel>
 </rss>
+
