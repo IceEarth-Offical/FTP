@@ -367,13 +367,13 @@
           }
         },
         {
-          "id": "traben.entity_texture_features:entity_texture_features:4.3.3@jar",
+          "id": "traben.entity_texture_features:entity_texture_features:6.0.1@jar",
           "name": "Entity Texture Features",
           "type": "FabricMod",
           "artifact": {
-            "size": 411102,
-            "url": "https://iceearth-offical.github.io/FTP/iceearth_survive/servers/%EC%95%84%EC%83%9D%EC%84%9C%EB%B2%84-1.19.2/fabricmods/optionalon/entity_texture_features_fabric_1.19.2-4.3.3.jar",
-            "MD5": "595d960ab5ec046e76db1f058b5d3863"
+            "size": 518266,
+            "url": "https://iceearth-offical.github.io/FTP/iceearth_survive/servers/%EC%95%84%EC%83%9D%EC%84%9C%EB%B2%84-1.19.2/fabricmods/optionalon/entity_texture_features_fabric_1.19.2-6.0.1.jar",
+            "MD5": "5a46c3b2d00a92e047691d7ddcff1f5f"
           },
           "required": {
             "value": false
