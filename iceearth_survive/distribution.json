@@ -705,16 +705,6 @@
           }
         },
         {
-          "id": "su.plo.voice:plasmovoice:2.0.10@jar",
-          "name": "Plasmo Voice",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 11371778,
-            "url": "https://iceearth-offical.github.io/FTP/iceearth_survive/servers/%EC%95%84%EC%83%9D%EC%84%9C%EB%B2%84-1.19.2/fabricmods/required/plasmovoice-fabric-1.19.2-2.0.10.jar",
-            "MD5": "e673e752d0e48ad0d406612b1bd0552b"
-          }
-        },
-        {
           "id": "generated.fabricmod:puzzle:1.4.2-1.19@jar",
           "name": "Puzzle",
           "type": "FabricMod",
@@ -790,6 +780,16 @@
           },
           "required": {
             "value": false
+          }
+        },
+        {
+          "id": "de.maxhenkel:voicechat:1.19.2-2.5.19@jar",
+          "name": "Simple Voice Chat",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 8016218,
+            "url": "https://iceearth-offical.github.io/FTP/iceearth_survive/servers/%EC%95%84%EC%83%9D%EC%84%9C%EB%B2%84-1.19.2/fabricmods/required/voicechat-fabric-1.19.2-2.5.19.jar",
+            "MD5": "f1cb3b7d67ae85baa95f93e0d04c0d98"
           }
         },
         {
