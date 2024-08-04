@@ -1,0 +1,755 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "마인워Z-1.20.1",
+      "name": "마인워Z",
+      "description": "마인워Z with 음성채팅",
+      "icon": "https://nng-phinf.pstatic.net/MjAyMzEyMDZfODgg/MDAxNzAxODY5NjEzNDQz.KDIXBnvFX0wsri7wopsROI4bzl5_wUh8kGlJTom-P3sg.G7pCaXGhIlTaGL6hflNF7ULrCnGlF8G627rmzy4He18g.PNG/%EB%B9%BB%EC%95%84%EC%8A%A4.png",
+      "version": "1.0.0",
+      "address": "icecompany.alcl.kr",
+      "minecraftVersion": "1.20.1",
+      "discord": {
+        "shortId": "MINEWARZ",
+        "largeImageText": "마인워Z",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.16.0",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1368445,
+            "MD5": "9e96a8f9424744e3e9b43f942975da34",
+            "url": "https://iceearth-offical.github.io/FTP/repo/lib/net/fabricmc/fabric-loader/0.16.0/fabric-loader-0.16.0.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.20.1-fabric-0.16.0",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2847,
+                "MD5": "321c8b39fbb109ba7cfe33099e0a0bdd",
+                "url": "https://iceearth-offical.github.io/FTP/repo/versions/1.20.1-fabric-0.16.0/1.20.1-fabric-0.16.0.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.6",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 123598,
+                "MD5": "6f8bccf756f170d4185bb24c8c2d2020",
+                "url": "https://iceearth-offical.github.io/FTP/repo/lib/org/ow2/asm/asm/9.6/asm-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.6",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 34041,
+                "MD5": "31c84ef7cc893fb278952ae2d6a2674f",
+                "url": "https://iceearth-offical.github.io/FTP/repo/lib/org/ow2/asm/asm-analysis/9.6/asm-analysis-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.6",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 72194,
+                "MD5": "9e317c75534bd1da8c00a67c618ab288",
+                "url": "https://iceearth-offical.github.io/FTP/repo/lib/org/ow2/asm/asm-commons/9.6/asm-commons-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.6",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51935,
+                "MD5": "6062608f1a98afe1e853d01fa1221a9e",
+                "url": "https://iceearth-offical.github.io/FTP/repo/lib/org/ow2/asm/asm-tree/9.6/asm-tree-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.6",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 91131,
+                "MD5": "bd3bc1c176a787373e9a031073c9574b",
+                "url": "https://iceearth-offical.github.io/FTP/repo/lib/org/ow2/asm/asm-util/9.6/asm-util-9.6.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.15.0+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1494859,
+                "MD5": "65ff9052ede9283e70770e0cd4eccdf4",
+                "url": "https://iceearth-offical.github.io/FTP/repo/lib/net/fabricmc/sponge-mixin/0.15.0+mixin.0.8.7/sponge-mixin-0.15.0+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.20.1",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 573365,
+                "MD5": "3f4768ac751cac3418266d1d7aa15f55",
+                "url": "https://iceearth-offical.github.io/FTP/repo/lib/net/fabricmc/intermediary/1.20.1/intermediary-1.20.1.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "de.guntram.mcmod:advancementinfo:1.20-fabric0.83.0-1.4@jar",
+          "name": "AdvancementInfo",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 43895,
+            "url": "https://iceearth-offical.github.io/FTP/servers/%EB%A7%88%EC%9D%B8%EC%9B%8CZ-1.20.1/fabricmods/optionalon/advancementinfo-1.20-fabric0.83.0-1.4.jar",
+            "MD5": "1d9875ca82a3f4d545db092f073bcc63"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "io.github.foundationgames:animatica:0.6.1+1.20.4@jar",
+          "name": "Animatica",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 71415,
+            "url": "https://iceearth-offical.github.io/FTP/servers/%EB%A7%88%EC%9D%B8%EC%9B%8CZ-1.20.1/fabricmods/optionalon/animatica-0.6.1+1.20.4.jar",
+            "MD5": "62f56949e2f934073f5576fc4758ff4f"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:bettermounthud:1.2.2@jar",
+          "name": "Better Mount HUD",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 21587,
+            "url": "https://iceearth-offical.github.io/FTP/servers/%EB%A7%88%EC%9D%B8%EC%9B%8CZ-1.20.1/fabricmods/optionalon/bettermounthud-1.2.2.jar",
+            "MD5": "fdd255bd204f7d84850fd31ba687ad01"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:borderlessmining:1.1.8+1.20.1@jar",
+          "name": "Borderless Mining",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 118295,
+            "url": "https://iceearth-offical.github.io/FTP/servers/%EB%A7%88%EC%9D%B8%EC%9B%8CZ-1.20.1/fabricmods/optionalon/borderless-mining-1.1.8+1.20.1.jar",
+            "MD5": "e35125dd22a96775fea86c1acef59a9a"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "me.cael:capes:1.5.2+1.20@jar",
+          "name": "Capes",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 170082,
+            "url": "https://iceearth-offical.github.io/FTP/servers/%EB%A7%88%EC%9D%B8%EC%9B%8CZ-1.20.1/fabricmods/optionalon/capes-1.5.2+1.20-fabric.jar",
+            "MD5": "312590823dd12dc676f8908be2e8396d"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "shcm.shsupercm:citresewn:1.1.5+1.20.1@jar",
+          "name": "CIT Resewn",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 391752,
+            "url": "https://iceearth-offical.github.io/FTP/servers/%EB%A7%88%EC%9D%B8%EC%9B%8CZ-1.20.1/fabricmods/optionalon/citresewn-1.1.5+1.20.1.jar",
+            "MD5": "d0d036a2aeff226687f369269524653d"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "me.shedaniel.autoconfig.example:cloth-config:11.1.118@jar",
+          "name": "Cloth Config v11",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1159192,
+            "url": "https://iceearth-offical.github.io/FTP/servers/%EB%A7%88%EC%9D%B8%EC%9B%8CZ-1.20.1/fabricmods/optionalon/cloth-config-11.1.118-fabric.jar",
+            "MD5": "eb13a834db10ee7e8c5e6a6d4b037fbd"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "me.pepperbell:continuity:3.0.0-beta.5+1.20.1@jar",
+          "name": "Continuity",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1009252,
+            "url": "https://iceearth-offical.github.io/FTP/servers/%EB%A7%88%EC%9D%B8%EC%9B%8CZ-1.20.1/fabricmods/optionalon/continuity-3.0.0-beta.5+1.20.1.jar",
+            "MD5": "1772f06a48c83414f4c6dfc2db4ac530"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "dev.isxander:controlify:2.0.0-beta.14+1.20.1-fabric@jar",
+          "name": "Controlify",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2789806,
+            "url": "https://iceearth-offical.github.io/FTP/servers/%EB%A7%88%EC%9D%B8%EC%9B%8CZ-1.20.1/fabricmods/optionalon/Controlify-2.0.0-beta.14+1.20.1-fabric.jar",
+            "MD5": "4b7117ff51d00c850040d6c24d3a3abb"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "dev.isxander:debugify:1.20.1+2.0@jar",
+          "name": "Debugify",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 337545,
+            "url": "https://iceearth-offical.github.io/FTP/servers/%EB%A7%88%EC%9D%B8%EC%9B%8CZ-1.20.1/fabricmods/optionalon/Debugify-1.20.1+2.0.jar",
+            "MD5": "39e6ead07cd3ce225fb24775e0cb0341"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.lostluma.dynamic_fps.impl.textile.compat:dynamic_fps:3.6.3@jar",
+          "name": "Dynamic FPS",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 181399,
+            "url": "https://iceearth-offical.github.io/FTP/servers/%EB%A7%88%EC%9D%B8%EC%9B%8CZ-1.20.1/fabricmods/optionalon/dynamic-fps-3.6.3+minecraft-1.20.0-fabric.jar",
+            "MD5": "41bacda162f2c38a420ac628dbf40e01"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "link.e4mc:e4mc_minecraft:5.1.0@jar",
+          "name": "E4mc",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 568298,
+            "url": "https://iceearth-offical.github.io/FTP/servers/%EB%A7%88%EC%9D%B8%EC%9B%8CZ-1.20.1/fabricmods/optionalon/e4mc_minecraft-5.1.0.jar",
+            "MD5": "750b3fa1c1e9a5651fcf20fce4877c08"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "foundationgames.enhancedblockentities:enhancedblockentities:0.9+1.20@jar",
+          "name": "Enhanced Block Entities",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 490690,
+            "url": "https://iceearth-offical.github.io/FTP/servers/%EB%A7%88%EC%9D%B8%EC%9B%8CZ-1.20.1/fabricmods/optionalon/enhancedblockentities-0.9+1.20.jar",
+            "MD5": "bfc7a62a2834f824bb426b73f383e0cb"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "traben.entity_model_features:entity_model_features:2.1.3@jar",
+          "name": "Entity Model Features",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 409627,
+            "url": "https://iceearth-offical.github.io/FTP/servers/%EB%A7%88%EC%9D%B8%EC%9B%8CZ-1.20.1/fabricmods/optionalon/entity_model_features_fabric_1.20.1-2.1.3.jar",
+            "MD5": "19e9851a361e27481a23733fb268ccbe"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "traben.entity_texture_features:entity_texture_features:6.1.3@jar",
+          "name": "Entity Texture Features",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 602540,
+            "url": "https://iceearth-offical.github.io/FTP/servers/%EB%A7%88%EC%9D%B8%EC%9B%8CZ-1.20.1/fabricmods/optionalon/entity_texture_features_fabric_1.20.1-6.1.3.jar",
+            "MD5": "4ef127f1f3c142a360e52702ba57f5d7"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "dev.tr7zw:entityculling:1.6.6@jar",
+          "name": "EntityCulling",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 66648,
+            "url": "https://iceearth-offical.github.io/FTP/servers/%EB%A7%88%EC%9D%B8%EC%9B%8CZ-1.20.1/fabricmods/optionalon/entityculling-fabric-1.6.6-mc1.20.1.jar",
+            "MD5": "e0e7dbb4387ec2ac5fc74f43206e1521"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.92.2+1.20.1@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2107289,
+            "url": "https://iceearth-offical.github.io/FTP/servers/%EB%A7%88%EC%9D%B8%EC%9B%8CZ-1.20.1/fabricmods/optionalon/fabric-api-0.92.2+1.20.1.jar",
+            "MD5": "92c58961866741106aae126558c9d4a7"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-language-kotlin:1.11.0+kotlin.2.0.0@jar",
+          "name": "Fabric Language Kotlin",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 7015315,
+            "url": "https://iceearth-offical.github.io/FTP/servers/%EB%A7%88%EC%9D%B8%EC%9B%8CZ-1.20.1/fabricmods/optionalon/fabric-language-kotlin-1.11.0+kotlin.2.0.0.jar",
+            "MD5": "ac91311ce91421ca52a96d2a4e4f078c"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "io.github.amerebagatelle:fabricskyboxes:0.7.3+mc1.20.1@jar",
+          "name": "FabricSkyBoxes",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 207272,
+            "url": "https://iceearth-offical.github.io/FTP/servers/%EB%A7%88%EC%9D%B8%EC%9B%8CZ-1.20.1/fabricmods/optionalon/fabricskyboxes-0.7.3+mc1.20.1.jar",
+            "MD5": "a3e21b6bb94f98d3b5d29c77d1ad703a"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "me.ramidzkh:fabrishot:1.10.1@jar",
+          "name": "Fabrishot",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 46663,
+            "url": "https://iceearth-offical.github.io/FTP/servers/%EB%A7%88%EC%9D%B8%EC%9B%8CZ-1.20.1/fabricmods/optionalon/fabrishot-1.10.1.jar",
+            "MD5": "2e08783777a9735f056911f190c3b722"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "io.github.ultimateboomer.nofade:fadeless:1.0.1@jar",
+          "name": "Fadeless",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 7876,
+            "url": "https://iceearth-offical.github.io/FTP/servers/%EB%A7%88%EC%9D%B8%EC%9B%8CZ-1.20.1/fabricmods/optionalon/fadeless-1.0.1.jar",
+            "MD5": "1b17811bcc7052b8fc38a4c44bcf74a9"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.kingcontaria:fastquit:3.0.0+1.20+@jar",
+          "name": "FastQuit",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 79306,
+            "url": "https://iceearth-offical.github.io/FTP/servers/%EB%A7%88%EC%9D%B8%EC%9B%8CZ-1.20.1/fabricmods/optionalon/fastquit-3.0.0+1.20+.jar",
+            "MD5": "a1b2847e248207157f5bbe7285b41927"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:ferritecore:6.0.1@jar",
+          "name": "FerriteCore",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 125197,
+            "url": "https://iceearth-offical.github.io/FTP/servers/%EB%A7%88%EC%9D%B8%EC%9B%8CZ-1.20.1/fabricmods/optionalon/ferritecore-6.0.1-fabric.jar",
+            "MD5": "a19272e427f75fea59127de6610ea26b"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:fsb-interop:1.3.6+mc1.20.1-build.50@jar",
+          "name": "FabricSkyBoxes Interop",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 49495,
+            "url": "https://iceearth-offical.github.io/FTP/servers/%EB%A7%88%EC%9D%B8%EC%9B%8CZ-1.20.1/fabricmods/optionalon/fsb-interop-1.3.6+mc1.20.1-build.50.jar",
+            "MD5": "87fa8fe095bad30e9ca15ceb660b5e45"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:immediatelyfast:1.2.18+1.20.4@jar",
+          "name": "ImmediatelyFast",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 250364,
+            "url": "https://iceearth-offical.github.io/FTP/servers/%EB%A7%88%EC%9D%B8%EC%9B%8CZ-1.20.1/fabricmods/optionalon/ImmediatelyFast-Fabric-1.2.18+1.20.4.jar",
+            "MD5": "7530923c63a9696f7d18eb2bc37a6f98"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "link.infra:indium:1.0.34+mc1.20.1@jar",
+          "name": "Indium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 105359,
+            "url": "https://iceearth-offical.github.io/FTP/servers/%EB%A7%88%EC%9D%B8%EC%9B%8CZ-1.20.1/fabricmods/optionalon/indium-1.0.34+mc1.20.1.jar",
+            "MD5": "91f3ce08edec42ee8f6b45fd6ae0c8b3"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.7.2+mc1.20.1@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2701293,
+            "url": "https://iceearth-offical.github.io/FTP/servers/%EB%A7%88%EC%9D%B8%EC%9B%8CZ-1.20.1/fabricmods/optionalon/iris-1.7.2+mc1.20.1.jar",
+            "MD5": "fde2833d321c3f09020bd456094693d3"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "dev.lambdaurora:lambdynlights:2.3.2+1.20.1@jar",
+          "name": "LambDynamicLights",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 573183,
+            "url": "https://iceearth-offical.github.io/FTP/servers/%EB%A7%88%EC%9D%B8%EC%9B%8CZ-1.20.1/fabricmods/optionalon/lambdynamiclights-2.3.2+1.20.1.jar",
+            "MD5": "9e931a5331bfe8cee677a413b8aea776"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:languagereload:1.6.1+1.20.1@jar",
+          "name": "Language Reload",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 67109,
+            "url": "https://iceearth-offical.github.io/FTP/servers/%EB%A7%88%EC%9D%B8%EC%9B%8CZ-1.20.1/fabricmods/optionalon/language-reload-1.6.1+1.20.1.jar",
+            "MD5": "8cec8f42b9f6e42c02c95b4549aeec44"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "me.jellysquid.mods:lithium:0.11.2@jar",
+          "name": "Lithium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 645865,
+            "url": "https://iceearth-offical.github.io/FTP/servers/%EB%A7%88%EC%9D%B8%EC%9B%8CZ-1.20.1/fabricmods/optionalon/lithium-fabric-mc1.20.1-0.11.2.jar",
+            "MD5": "026ca4110d57f16f701b400ad5d2ca26"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "dev.isxander.mainmenucredits:isxander-main-menu-credits:1.1.2@jar",
+          "name": "Main Menu Credits",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 14340,
+            "url": "https://iceearth-offical.github.io/FTP/servers/%EB%A7%88%EC%9D%B8%EC%9B%8CZ-1.20.1/fabricmods/optionalon/main-menu-credits-1.1.2.jar",
+            "MD5": "ca68af4e0939c9b2af2e8f0c5149f1d0"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "ca.fxco:memoryleakfix:1.1.5@jar",
+          "name": "Memory Leak Fix",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 49334,
+            "url": "https://iceearth-offical.github.io/FTP/servers/%EB%A7%88%EC%9D%B8%EC%9B%8CZ-1.20.1/fabricmods/optionalon/memoryleakfix-fabric-1.17+-1.1.5.jar",
+            "MD5": "a8461f89d267441752c95beb5448e940"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:mixintrace:1.1.1+1.17@jar",
+          "name": "MixinTrace",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 36039,
+            "url": "https://iceearth-offical.github.io/FTP/servers/%EB%A7%88%EC%9D%B8%EC%9B%8CZ-1.20.1/fabricmods/optionalon/mixintrace-1.1.1+1.17.jar",
+            "MD5": "25673336ece740d8127ae7525bc0cd4f"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:modelfix:1.15@jar",
+          "name": "Model Gap Fix",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 65491,
+            "url": "https://iceearth-offical.github.io/FTP/servers/%EB%A7%88%EC%9D%B8%EC%9B%8CZ-1.20.1/fabricmods/optionalon/modelfix-1.15-fabric.jar",
+            "MD5": "5503cf88c4ecb768330655258fa9b388"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "org.embeddedt:modernfix:5.19.0+mc1.20.1@jar",
+          "name": "ModernFix",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 642557,
+            "url": "https://iceearth-offical.github.io/FTP/servers/%EB%A7%88%EC%9D%B8%EC%9B%8CZ-1.20.1/fabricmods/optionalon/modernfix-fabric-5.19.0+mc1.20.1.jar",
+            "MD5": "ec6c0d1de2fbc6cba5aa2201468f0985"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.terraformersmc:modmenu:7.2.2@jar",
+          "name": "Mod Menu",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 721366,
+            "url": "https://iceearth-offical.github.io/FTP/servers/%EB%A7%88%EC%9D%B8%EC%9B%8CZ-1.20.1/fabricmods/optionalon/modmenu-7.2.2.jar",
+            "MD5": "2629511a2d3b141d9f2a24dc9685637e"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:morechathistory:1.3.0@jar",
+          "name": "More Chat History",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 3546,
+            "url": "https://iceearth-offical.github.io/FTP/servers/%EB%A7%88%EC%9D%B8%EC%9B%8CZ-1.20.1/fabricmods/optionalon/morechathistory-1.3.0.jar",
+            "MD5": "1980ac8b5b66417091d101682af8865c"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "ca.fxco:moreculling:1.20.4-0.24.0@jar",
+          "name": "More Culling",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 272851,
+            "url": "https://iceearth-offical.github.io/FTP/servers/%EB%A7%88%EC%9D%B8%EC%9B%8CZ-1.20.1/fabricmods/optionalon/moreculling-1.20.4-0.24.0.jar",
+            "MD5": "109804ad4b9f14a549f02bf26c98ac44"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.aizistral:nochatreports:1.20.1-v2.2.2@jar",
+          "name": "No Chat Reports",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 619812,
+            "url": "https://iceearth-offical.github.io/FTP/servers/%EB%A7%88%EC%9D%B8%EC%9B%8CZ-1.20.1/fabricmods/optionalon/NoChatReports-FABRIC-1.20.1-v2.2.2.jar",
+            "MD5": "62ebb770ad9e08008abf6df50a6a1aa7"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "opekope2.optigui:optigui:2.1.7@jar",
+          "name": "OptiGUI",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 780572,
+            "url": "https://iceearth-offical.github.io/FTP/servers/%EB%A7%88%EC%9D%B8%EC%9B%8CZ-1.20.1/fabricmods/optionalon/optigui-2.1.7.jar",
+            "MD5": "2744ac9b3e4908c3cfcf4362d1437e0f"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:puzzle:1.5.2+1.20@jar",
+          "name": "Puzzle",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 133463,
+            "url": "https://iceearth-offical.github.io/FTP/servers/%EB%A7%88%EC%9D%B8%EC%9B%8CZ-1.20.1/fabricmods/optionalon/puzzle-1.5.2+1.20.jar",
+            "MD5": "398c46e49c5225266262fbb06a8bea07"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:reeses-sodium-options:1.7.2+mc1.20.1-build.101@jar",
+          "name": "Reese's Sodium Options",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 77304,
+            "url": "https://iceearth-offical.github.io/FTP/servers/%EB%A7%88%EC%9D%B8%EC%9B%8CZ-1.20.1/fabricmods/optionalon/reeses_sodium_options-1.7.2+mc1.20.1-build.101.jar",
+            "MD5": "0db2ef332dd00de8c64e34f192317118"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "org.redlance.dima_dencep.mods:rrls:4.0.6.1+mc1.20.1-fabric@jar",
+          "name": "Remove Reloading Screen",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 160946,
+            "url": "https://iceearth-offical.github.io/FTP/servers/%EB%A7%88%EC%9D%B8%EC%9B%8CZ-1.20.1/fabricmods/optionalon/rrls-4.0.6.1+mc1.20.1-fabric.jar",
+            "MD5": "2a0728123d4089f8eb44c2654c52a8c6"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "me.flashyreese.mods.sodiumextra:sodium-extra:0.5.4+mc1.20.1-build.115@jar",
+          "name": "Sodium Extra",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 385539,
+            "url": "https://iceearth-offical.github.io/FTP/servers/%EB%A7%88%EC%9D%B8%EC%9B%8CZ-1.20.1/fabricmods/optionalon/sodium-extra-0.5.4+mc1.20.1-build.115.jar",
+            "MD5": "9eaed09a486eee9a1326de5dd80faa0a"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "me.jellysquid.mods:sodium:0.5.11+mc1.20.1@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 968419,
+            "url": "https://iceearth-offical.github.io/FTP/servers/%EB%A7%88%EC%9D%B8%EC%9B%8CZ-1.20.1/fabricmods/optionalon/sodium-fabric-0.5.11+mc1.20.1.jar",
+            "MD5": "9880bae748957d1cb6c4de50c8e0452a"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "de.maxhenkel:voicechat:1.20.1-2.5.19@jar",
+          "name": "Simple Voice Chat",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 8064361,
+            "url": "https://iceearth-offical.github.io/FTP/servers/%EB%A7%88%EC%9D%B8%EC%9B%8CZ-1.20.1/fabricmods/required/voicechat-fabric-1.20.1-2.5.19.jar",
+            "MD5": "8e3db9e113b55555d2c0d237906c0edf"
+          }
+        },
+        {
+          "id": "dev.isxander.yacl3.platform:yet_another_config_lib_v3:3.5.0+1.20.1-fabric@jar",
+          "name": "YetAnotherConfigLib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1148529,
+            "url": "https://iceearth-offical.github.io/FTP/servers/%EB%A7%88%EC%9D%B8%EC%9B%8CZ-1.20.1/fabricmods/optionalon/YetAnotherConfigLib-3.5.0+1.20.1-fabric.jar",
+            "MD5": "84ec83096ccce215ad670ce6ea8c3055"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:yosbr:0.1.2@jar",
+          "name": "YOSBR",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 17373,
+            "url": "https://iceearth-offical.github.io/FTP/servers/%EB%A7%88%EC%9D%B8%EC%9B%8CZ-1.20.1/fabricmods/optionalon/yosbr-0.1.2.jar",
+            "MD5": "9fcce225f25b6fd17921c87ff1c720f1"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "dev.isxander:zoomify:2.14.0+1.20.1@jar",
+          "name": "Zoomify",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 809496,
+            "url": "https://iceearth-offical.github.io/FTP/servers/%EB%A7%88%EC%9D%B8%EC%9B%8CZ-1.20.1/fabricmods/optionalon/Zoomify-2.14.0+1.20.1.jar",
+            "MD5": "aec4d3b9216c592d89cdbcf1af41ad8a"
+          },
+          "required": {
+            "value": false
+          }
+        }
+      ]
+    }
+  ]
+}

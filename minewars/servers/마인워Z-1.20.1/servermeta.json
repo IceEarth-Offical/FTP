@@ -1,0 +1,21 @@
+{
+  "$schema": "file:///C:/Users/Administrator/Documents/Project/minewars-custom-launcher/Nebula/workspace/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "마인워Z",
+    "description": "마인워Z with 음성채팅",
+    "icon": "https://nng-phinf.pstatic.net/MjAyMzEyMDZfODgg/MDAxNzAxODY5NjEzNDQz.KDIXBnvFX0wsri7wopsROI4bzl5_wUh8kGlJTom-P3sg.G7pCaXGhIlTaGL6hflNF7ULrCnGlF8G627rmzy4He18g.PNG/%EB%B9%BB%EC%95%84%EC%8A%A4.png",
+    "address": "icecompany.alcl.kr",
+    "discord": {
+      "shortId": "MINEWARZ",
+      "largeImageText": "마인워Z",
+      "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+    },
+    "mainServer": false,
+    "autoconnect": false
+  },
+  "fabric": {
+    "version": "0.16.0"
+  },
+  "untrackedFiles": []
+}
