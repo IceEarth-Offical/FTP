@@ -832,6 +832,17 @@
           }
         },
         {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 118,
+            "url": "https://iceearth-offical.github.io/FTP/iceearth_survive/servers/%EC%95%84%EC%83%9D%EC%84%9C%EB%B2%84-1.19.2/files/servers.dat",
+            "MD5": "9c18e47edbce3a6233abc8c3b05fcf05",
+            "path": "servers.dat"
+          }
+        },
+        {
           "id": "RTUShader-v4.1.zip",
           "name": "RTUShader-v4.1.zip",
           "type": "File",
