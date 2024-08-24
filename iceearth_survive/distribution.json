@@ -9,7 +9,7 @@
   "servers": [
     {
       "id": "아생서버-1.19.2",
-      "name": "아생서버",
+      "name": "아생서버(종료)",
       "description": "스트리머 아스의 야생 컨텐츠, '아셍서버'",
       "icon": "https://nng-phinf.pstatic.net/MjAyMzEyMDZfODgg/MDAxNzAxODY5NjEzNDQz.KDIXBnvFX0wsri7wopsROI4bzl5_wUh8kGlJTom-P3sg.G7pCaXGhIlTaGL6hflNF7ULrCnGlF8G627rmzy4He18g.PNG/%EB%B9%BB%EC%95%84%EC%8A%A4.png?type=f120_120_na",
       "version": "1.0.0",
