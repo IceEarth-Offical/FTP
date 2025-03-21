@@ -1,0 +1,410 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "아켓몬서버-1.21.1",
+      "name": "아켓몬서버",
+      "description": "아스의 포켓몬 서버~!",
+      "icon": "https://images-ext-1.discordapp.net/external/woYr2CQuN_PmNxstaCLjeo7GBxQrckHjsI9sz9AAbwM/https/nng-phinf.pstatic.net/MjAyMzEyMDZfODgg/MDAxNzAxODY5NjEzNDQz.KDIXBnvFX0wsri7wopsROI4bzl5_wUh8kGlJTom-P3sg.G7pCaXGhIlTaGL6hflNF7ULrCnGlF8G627rmzy4He18g.PNG/%25EB%25B9%25BB%25EC%2595%2584%25EC%258A%25A4.png",
+      "version": "1.0.0",
+      "address": "iceearthmc.alcl.kr",
+      "minecraftVersion": "1.21.1",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.16.10",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1387408,
+            "MD5": "239d59118dec4324672b3d9e9d75efef",
+            "url": "https://iceearth-offical.github.io/FTP/iceketmon/repo/lib/net/fabricmc/fabric-loader/0.16.10/fabric-loader-0.16.10.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.21.1-fabric-0.16.10",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2859,
+                "MD5": "64df78de42c31cc4c12d55a5aab9a65d",
+                "url": "https://iceearth-offical.github.io/FTP/iceketmon/repo/versions/1.21.1-fabric-0.16.10/1.21.1-fabric-0.16.10.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.7.1",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126093,
+                "MD5": "e2cdd32d198ad31427d298eee9d39d8d",
+                "url": "https://iceearth-offical.github.io/FTP/iceketmon/repo/lib/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.7.1",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35126,
+                "MD5": "4cd9e7178dfb85371bba3077e40cd514",
+                "url": "https://iceearth-offical.github.io/FTP/iceketmon/repo/lib/org/ow2/asm/asm-analysis/9.7.1/asm-analysis-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.7.1",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 73459,
+                "MD5": "8344aea3c8b7d707e9d35a62710e77c9",
+                "url": "https://iceearth-offical.github.io/FTP/iceketmon/repo/lib/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.7.1",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51939,
+                "MD5": "e85029f613b6469989cc7cf53fe06b74",
+                "url": "https://iceearth-offical.github.io/FTP/iceketmon/repo/lib/org/ow2/asm/asm-tree/9.7.1/asm-tree-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.7.1",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94519,
+                "MD5": "36d373a9cd6cad9b35db9f984c6b4bbb",
+                "url": "https://iceearth-offical.github.io/FTP/iceketmon/repo/lib/org/ow2/asm/asm-util/9.7.1/asm-util-9.7.1.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.15.4+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1494834,
+                "MD5": "991ca8be2c408fe19eb64014d8a18243",
+                "url": "https://iceearth-offical.github.io/FTP/iceketmon/repo/lib/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.21.1",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 657725,
+                "MD5": "850be48a3406b9efdf8e64b1c2db97f8",
+                "url": "https://iceearth-offical.github.io/FTP/iceketmon/repo/lib/net/fabricmc/intermediary/1.21.1/intermediary-1.21.1.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "com.frikinjay:almanac:1.0.2@jar",
+          "name": "Almanac",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 16349,
+            "url": "https://iceearth-offical.github.io/FTP/iceketmon/servers/%EC%95%84%EC%BC%93%EB%AA%AC%EC%84%9C%EB%B2%84-1.21.1/fabricmods/required/almanac-1.21.x-fabric-1.0.2.jar",
+            "MD5": "7cf46f0aa12f42e40cc86c0747da0e16"
+          }
+        },
+        {
+          "id": "squeek.appleskin:appleskin:3.0.6+mc1.21@jar",
+          "name": "AppleSkin",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1082585,
+            "url": "https://iceearth-offical.github.io/FTP/iceketmon/servers/%EC%95%84%EC%BC%93%EB%AA%AC%EC%84%9C%EB%B2%84-1.21.1/fabricmods/required/appleskin-fabric-mc1.21-3.0.6.jar",
+            "MD5": "a24c435e84973afd607e20395ecba19d"
+          }
+        },
+        {
+          "id": "dev.architectury.utils:architectury:13.0.8@jar",
+          "name": "Architectury",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 600915,
+            "url": "https://iceearth-offical.github.io/FTP/iceketmon/servers/%EC%95%84%EC%BC%93%EB%AA%AC%EC%84%9C%EB%B2%84-1.21.1/fabricmods/required/architectury-13.0.8-fabric.jar",
+            "MD5": "702e92d09a4855c6c8aa9e738a48efa4"
+          }
+        },
+        {
+          "id": "nl.enjarai:cicada:0.10.2+1.21-1.21.1@jar",
+          "name": "CICADA",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 81254,
+            "url": "https://iceearth-offical.github.io/FTP/iceketmon/servers/%EC%95%84%EC%BC%93%EB%AA%AC%EC%84%9C%EB%B2%84-1.21.1/fabricmods/required/cicada-lib-0.10.2+1.21-1.21.1.jar",
+            "MD5": "63911f1b5645e027f5c5eea0f756cb0f"
+          }
+        },
+        {
+          "id": "generated.fabricmod:clumps:19.0.0.1@jar",
+          "name": "Clumps",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 20723,
+            "url": "https://iceearth-offical.github.io/FTP/iceketmon/servers/%EC%95%84%EC%BC%93%EB%AA%AC%EC%84%9C%EB%B2%84-1.21.1/fabricmods/required/Clumps-fabric-1.21.1-19.0.0.1.jar",
+            "MD5": "8715713c6b63565a5eafb4c925275035"
+          }
+        },
+        {
+          "id": "com.cobblemon.mod:cobblemon:1.6.1+1.21.1@jar",
+          "name": "Cobblemon",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 120710175,
+            "url": "https://iceearth-offical.github.io/FTP/iceketmon/servers/%EC%95%84%EC%BC%93%EB%AA%AC%EC%84%9C%EB%B2%84-1.21.1/fabricmods/required/Cobblemon-fabric-1.6.1+1.21.1.jar",
+            "MD5": "cefe6ab687c39e1a7fe9b2bf96b09188"
+          }
+        },
+        {
+          "id": "dev.zanckor:cobblemonridingfabric:1.3.4@jar",
+          "name": "Cobblemon Riding Fabric",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 51312,
+            "url": "https://iceearth-offical.github.io/FTP/iceketmon/servers/%EC%95%84%EC%BC%93%EB%AA%AC%EC%84%9C%EB%B2%84-1.21.1/fabricmods/required/cobblemonridingfabric-1.3.4.jar",
+            "MD5": "099420d3328c4efddc4389aebb8a486a"
+          }
+        },
+        {
+          "id": "com.natamus:collective:7.87@jar",
+          "name": "Collective",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 922673,
+            "url": "https://iceearth-offical.github.io/FTP/iceketmon/servers/%EC%95%84%EC%BC%93%EB%AA%AC%EC%84%9C%EB%B2%84-1.21.1/fabricmods/required/collective-1.21.1-7.87.jar",
+            "MD5": "2234bf405d5b01d651254cf69aad6ee0"
+          }
+        },
+        {
+          "id": "com.natamus:dismountentity:3.5@jar",
+          "name": "Dismount Entity",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 40258,
+            "url": "https://iceearth-offical.github.io/FTP/iceketmon/servers/%EC%95%84%EC%BC%93%EB%AA%AC%EC%84%9C%EB%B2%84-1.21.1/fabricmods/required/dismountentity-1.21.1-3.5.jar",
+            "MD5": "0f8709c1fd10d6a78cad1d49718ae621"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.115.0+1.21.1@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2385171,
+            "url": "https://iceearth-offical.github.io/FTP/iceketmon/servers/%EC%95%84%EC%BC%93%EB%AA%AC%EC%84%9C%EB%B2%84-1.21.1/fabricmods/required/fabric-api-0.115.0+1.21.1.jar",
+            "MD5": "5e627455ae16cbb2c50eb0dd76314b1f"
+          }
+        },
+        {
+          "id": "generated.fabricmod:ferritecore:7.0.2-hotfix@jar",
+          "name": "FerriteCore",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 120709,
+            "url": "https://iceearth-offical.github.io/FTP/iceketmon/servers/%EC%95%84%EC%BC%93%EB%AA%AC%EC%84%9C%EB%B2%84-1.21.1/fabricmods/required/ferritecore-7.0.2-hotfix-fabric.jar",
+            "MD5": "6d381efd51de1cbbdb8070d346f32555"
+          }
+        },
+        {
+          "id": "me.steinborn.krypton.mod.shared:krypton:0.2.8@jar",
+          "name": "Krypton",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 161045,
+            "url": "https://iceearth-offical.github.io/FTP/iceketmon/servers/%EC%95%84%EC%BC%93%EB%AA%AC%EC%84%9C%EB%B2%84-1.21.1/fabricmods/required/krypton-0.2.8.jar",
+            "MD5": "9ba3d734dac0e59deb4721f2f23c65ad"
+          }
+        },
+        {
+          "id": "com.frikinjay:letmedespawn:1.4.4@jar",
+          "name": "Let Me Despawn",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 13585,
+            "url": "https://iceearth-offical.github.io/FTP/iceketmon/servers/%EC%95%84%EC%BC%93%EB%AA%AC%EC%84%9C%EB%B2%84-1.21.1/fabricmods/required/letmedespawn-1.21.x-fabric-1.4.4.jar",
+            "MD5": "10c2fc3acbf39c0cea77b4ea5e90b505"
+          }
+        },
+        {
+          "id": "net.caffeinemc.mods:lithium:0.14.7+mc1.21.1@jar",
+          "name": "Lithium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 749270,
+            "url": "https://iceearth-offical.github.io/FTP/iceketmon/servers/%EC%95%84%EC%BC%93%EB%AA%AC%EC%84%9C%EB%B2%84-1.21.1/fabricmods/required/lithium-fabric-0.14.7+mc1.21.1.jar",
+            "MD5": "3eed449eba8809d9682d0ca4fdb45adb"
+          }
+        },
+        {
+          "id": "generated.fabricmod:monsters_in_the_closet:1.0.3+1.21@jar",
+          "name": "Monsters in the Closet",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 12324,
+            "url": "https://iceearth-offical.github.io/FTP/iceketmon/servers/%EC%95%84%EC%BC%93%EB%AA%AC%EC%84%9C%EB%B2%84-1.21.1/fabricmods/required/monsters-in-the-closet-1.0.3+1.21.jar",
+            "MD5": "ea738531701e0cad8f06b944bd47c6f1"
+          }
+        },
+        {
+          "id": "nl.enjarai:showmeyourskin:1.11.3+1.21@jar",
+          "name": "Show Me Your Skin!",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 290150,
+            "url": "https://iceearth-offical.github.io/FTP/iceketmon/servers/%EC%95%84%EC%BC%93%EB%AA%AC%EC%84%9C%EB%B2%84-1.21.1/fabricmods/required/show-me-your-skin-1.11.3+1.21.jar",
+            "MD5": "90ef17b87ed440e1736114fcd58da446"
+          }
+        },
+        {
+          "id": "me.pouille.mods:slimyfloor:1.21-1.3.2@jar",
+          "name": "Slimy Floor",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 131057,
+            "url": "https://iceearth-offical.github.io/FTP/iceketmon/servers/%EC%95%84%EC%BC%93%EB%AA%AC%EC%84%9C%EB%B2%84-1.21.1/fabricmods/required/slimyfloor-1.21-1.3.2.jar",
+            "MD5": "96d23822bcda4518d5ae4a567a3ed47c"
+          }
+        },
+        {
+          "id": "com.natamus:superflatworldnoslimes:3.4@jar",
+          "name": "Superflat World No Slimes",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 25734,
+            "url": "https://iceearth-offical.github.io/FTP/iceketmon/servers/%EC%95%84%EC%BC%93%EB%AA%AC%EC%84%9C%EB%B2%84-1.21.1/fabricmods/required/superflatworldnoslimes-1.21.1-3.4.jar",
+            "MD5": "6e231de51c08d8b038ed969b8ef3a87a"
+          }
+        },
+        {
+          "id": "generated.fabricmod:mr_tims_ultimatelycomprehensivecobblemoneditsofdestiny:1.6.1-1@jar",
+          "name": "Tim's Ultimately Comprehensive Cobblemon Edits of Destiny",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 32555,
+            "url": "https://iceearth-offical.github.io/FTP/iceketmon/servers/%EC%95%84%EC%BC%93%EB%AA%AC%EC%84%9C%EB%B2%84-1.21.1/fabricmods/required/tims-ultimately-comprehensive-cobblemon-edits-of-destiny-1.6.1-1.jar",
+            "MD5": "6f581df7075c8e891a5f1d4bc3e1ee68"
+          }
+        },
+        {
+          "id": "Bliss_v2.0.4_(Chocapic13_Shaders_edit).zip",
+          "name": "Bliss_v2.0.4_(Chocapic13_Shaders_edit).zip",
+          "type": "File",
+          "artifact": {
+            "size": 1669167,
+            "url": "https://iceearth-offical.github.io/FTP/iceketmon/servers/%EC%95%84%EC%BC%93%EB%AA%AC%EC%84%9C%EB%B2%84-1.21.1/files/shaderpacks/Bliss_v2.0.4_(Chocapic13_Shaders_edit).zip",
+            "MD5": "fb757db17e378d3174611d4d0698280d",
+            "path": "shaderpacks/Bliss_v2.0.4_(Chocapic13_Shaders_edit).zip"
+          }
+        },
+        {
+          "id": "BSL_v8.4.02.2.zip",
+          "name": "BSL_v8.4.02.2.zip",
+          "type": "File",
+          "artifact": {
+            "size": 1108441,
+            "url": "https://iceearth-offical.github.io/FTP/iceketmon/servers/%EC%95%84%EC%BC%93%EB%AA%AC%EC%84%9C%EB%B2%84-1.21.1/files/shaderpacks/BSL_v8.4.02.2.zip",
+            "MD5": "595a27ea52eb9cdd9a71cdaacb59ce2d",
+            "path": "shaderpacks/BSL_v8.4.02.2.zip"
+          }
+        },
+        {
+          "id": "ComplementaryReimagined_r5.4.zip",
+          "name": "ComplementaryReimagined_r5.4.zip",
+          "type": "File",
+          "artifact": {
+            "size": 452405,
+            "url": "https://iceearth-offical.github.io/FTP/iceketmon/servers/%EC%95%84%EC%BC%93%EB%AA%AC%EC%84%9C%EB%B2%84-1.21.1/files/shaderpacks/ComplementaryReimagined_r5.4.zip",
+            "MD5": "1a67030845ad123f56a3b5f6d8fb9b7c",
+            "path": "shaderpacks/ComplementaryReimagined_r5.4.zip"
+          }
+        },
+        {
+          "id": "ComplementaryUnbound_r5.4.zip",
+          "name": "ComplementaryUnbound_r5.4.zip",
+          "type": "File",
+          "artifact": {
+            "size": 452408,
+            "url": "https://iceearth-offical.github.io/FTP/iceketmon/servers/%EC%95%84%EC%BC%93%EB%AA%AC%EC%84%9C%EB%B2%84-1.21.1/files/shaderpacks/ComplementaryUnbound_r5.4.zip",
+            "MD5": "94f56d5c5c343b9a0f4ad7eb135f9afa",
+            "path": "shaderpacks/ComplementaryUnbound_r5.4.zip"
+          }
+        },
+        {
+          "id": "photon_v1.1.zip",
+          "name": "photon_v1.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 3563885,
+            "url": "https://iceearth-offical.github.io/FTP/iceketmon/servers/%EC%95%84%EC%BC%93%EB%AA%AC%EC%84%9C%EB%B2%84-1.21.1/files/shaderpacks/photon_v1.1.zip",
+            "MD5": "e4f15b886ee2ed7349ca264bcfcc1147",
+            "path": "shaderpacks/photon_v1.1.zip"
+          }
+        },
+        {
+          "id": "rethinking-voxels_r0.1-beta6a.zip",
+          "name": "rethinking-voxels_r0.1-beta6a.zip",
+          "type": "File",
+          "artifact": {
+            "size": 8311373,
+            "url": "https://iceearth-offical.github.io/FTP/iceketmon/servers/%EC%95%84%EC%BC%93%EB%AA%AC%EC%84%9C%EB%B2%84-1.21.1/files/shaderpacks/rethinking-voxels_r0.1-beta6a.zip",
+            "MD5": "21c52d9c26abd1057e870b2273a9abbb",
+            "path": "shaderpacks/rethinking-voxels_r0.1-beta6a.zip"
+          }
+        },
+        {
+          "id": "Solas Shader V2.7.zip",
+          "name": "Solas Shader V2.7.zip",
+          "type": "File",
+          "artifact": {
+            "size": 1278374,
+            "url": "https://iceearth-offical.github.io/FTP/iceketmon/servers/%EC%95%84%EC%BC%93%EB%AA%AC%EC%84%9C%EB%B2%84-1.21.1/files/shaderpacks/Solas%20Shader%20V2.7.zip",
+            "MD5": "b9a7749f908434ed24e1873f95cb704e",
+            "path": "shaderpacks/Solas Shader V2.7.zip"
+          }
+        },
+        {
+          "id": "superDuperVanilla.zip",
+          "name": "superDuperVanilla.zip",
+          "type": "File",
+          "artifact": {
+            "size": 2439355,
+            "url": "https://iceearth-offical.github.io/FTP/iceketmon/servers/%EC%95%84%EC%BC%93%EB%AA%AC%EC%84%9C%EB%B2%84-1.21.1/files/shaderpacks/superDuperVanilla.zip",
+            "MD5": "800161a1981939adf01ae2e0ee7b3b3f",
+            "path": "shaderpacks/superDuperVanilla.zip"
+          }
+        },
+        {
+          "id": "§r§lAstra§4§lLex§r§l_By_LexBoosT_§4§lV93.0§r§l.zip",
+          "name": "§r§lAstra§4§lLex§r§l_By_LexBoosT_§4§lV93.0§r§l.zip",
+          "type": "File",
+          "artifact": {
+            "size": 3184524,
+            "url": "https://iceearth-offical.github.io/FTP/iceketmon/servers/%EC%95%84%EC%BC%93%EB%AA%AC%EC%84%9C%EB%B2%84-1.21.1/files/shaderpacks/%C2%A7r%C2%A7lAstra%C2%A74%C2%A7lLex%C2%A7r%C2%A7l_By_LexBoosT_%C2%A74%C2%A7lV93.0%C2%A7r%C2%A7l.zip",
+            "MD5": "021c95bd3d217b4a7e45997d5127285b",
+            "path": "shaderpacks/§r§lAstra§4§lLex§r§l_By_LexBoosT_§4§lV93.0§r§l.zip"
+          }
+        }
+      ]
+    }
+  ]
+}

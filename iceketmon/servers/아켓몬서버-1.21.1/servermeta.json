@@ -1,0 +1,21 @@
+{
+  "$schema": "file:///D:/Project/iceketmon/Nebula/workspace/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "아켓몬서버",
+    "description": "아스의 포켓몬 서버~!",
+    "icon": "https://images-ext-1.discordapp.net/external/woYr2CQuN_PmNxstaCLjeo7GBxQrckHjsI9sz9AAbwM/https/nng-phinf.pstatic.net/MjAyMzEyMDZfODgg/MDAxNzAxODY5NjEzNDQz.KDIXBnvFX0wsri7wopsROI4bzl5_wUh8kGlJTom-P3sg.G7pCaXGhIlTaGL6hflNF7ULrCnGlF8G627rmzy4He18g.PNG/%25EB%25B9%25BB%25EC%2595%2584%25EC%258A%25A4.png",
+    "address": "iceearthmc.alcl.kr",
+    "discord": {
+      "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+    },
+    "mainServer": true,
+    "autoconnect": true
+  },
+  "fabric": {
+    "version": "0.16.10"
+  },
+  "untrackedFiles": []
+}
